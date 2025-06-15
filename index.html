@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App</title>
+</head>
+<body>
+    <h1>Weather App </h1>
+
+
+    <div class="container">
+
+        <header>
+            <nav>
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text"  id="city" >
+                <button class="fa-solid fa-magnifying-glass" id="search"></button>
+            </nav>
+        </header>
+
+         <div class="not-found">
+            <img src="images/404.png">
+            <p>Oops! Invalid location :/</p>
+        </div>
+
+
+        <div class="weather-body">
+            <img src="./images/" >
+            <div>
+                <p class="temperature"></p>
+                <p class="description"></p>
+            </div>        
+        </div>
+
+        
+        <footer>
+            <div class="detailes">
+                <div class="humidity">
+                    <i class="fa-solid fa-water"></i>
+                    <div>
+                        <span>91%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                 <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div>
+                        <span>1Km/h</span>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+  
+
+
+    <script src="index.js"></script>
+</body>
+</html>
